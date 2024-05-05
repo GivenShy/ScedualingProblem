@@ -9,6 +9,9 @@ public class TimeTable extends JFrame implements ActionListener {
 	private JTextField field[];
 	private CourseArray courses;
 	private Color CRScolor[] = {Color.RED, Color.GREEN, Color.BLACK};
+
+	int min = Integer.MAX_VALUE, step;
+	int iterations = 0;
 	
 	public TimeTable() {
 		super("Dynamic Time Table");
@@ -28,7 +31,7 @@ public class TimeTable extends JFrame implements ActionListener {
 		String capField[] = {"Slots:", "Courses:", "Clash File:", "Iters:", "Shift:"};
 		field = new JTextField[capField.length];
 		
-		String capButton[] = {"Load", "Start", "Step", "Print", "Exit"};
+		String capButton[] = {"Load", "Start","Cont", "Step", "Print", "Exit"};
 		tool = new JButton[capButton.length];
 		
 		tools.setLayout(new GridLayout(2 * capField.length + capButton.length, 1));
@@ -69,7 +72,7 @@ public class TimeTable extends JFrame implements ActionListener {
 	}
 	
 	public void actionPerformed(ActionEvent click) {
-		int min, step, clashes;
+		int clashes;
 		
 		switch (getButtonIndex((JButton) click.getSource())) {
 		case 0:
@@ -79,6 +82,7 @@ public class TimeTable extends JFrame implements ActionListener {
 			draw();
 			break;
 		case 1:
+			iterations = 0;
 			min = Integer.MAX_VALUE;
 			step = 0;
 			for (int i = 1; i < courses.length(); i++) courses.setSlot(i, 0);
@@ -91,20 +95,36 @@ public class TimeTable extends JFrame implements ActionListener {
 					min = clashes;
 					step = iteration;
 				}
+				iterations++;
 			}
 			System.out.println("Shift = " + field[4].getText() + "\tMin clashes = " + min + "\tat step " + step);
 			setVisible(true);
 			break;
-		case 2:
+			case 2:
+				int temp = Integer.parseInt(field[3].getText());
+				for (int iteration = 1; iteration <= temp; iteration++) {
+					courses.iterate(Integer.parseInt(field[4].getText()));
+					draw();
+					iterations++;
+					clashes = courses.clashesLeft();
+					if (clashes < min) {
+						min = clashes;
+						step = iterations;
+					}
+
+				}
+				System.out.println("Shift = " + field[4].getText() + "\tMin clashes = " + min + "\tat step " + step);
+				setVisible(true);
+		case 3:
 			courses.iterate(Integer.parseInt(field[4].getText()));
 			draw();
 			break;
-		case 3:
+		case 4:
 			System.out.println("Exam\tSlot\tClashes");
 			for (int i = 1; i < courses.length(); i++)
 				System.out.println(i + "\t" + courses.slot(i) + "\t" + courses.status(i));
 			break;
-		case 4:
+		case 5:
 			System.exit(0);
 		}
 	}
