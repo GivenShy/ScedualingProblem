@@ -1,0 +1,286 @@
+Shift = 31	Min clashes = 22	at step 436
+Shift = 15	Min clashes = 22	at step 436
+Shift = 10	Min clashes = 22	at step 436
+Shift = 29	Min clashes = 22	at step 436
+Shift = 30	Min clashes = 22	at step 436
+Shift = 8	Min clashes = 22	at step 436
+Shift = 15	Min clashes = 22	at step 436
+Shift = 17	Min clashes = 22	at step 436
+Shift = 36	Min clashes = 48	at step 75
+Shift = 36	Min clashes = 48	at step 75
+Shift = 31	Min clashes = 22	at step 436
+Trained Amount:12
+Shift = 19	Min clashes = 22	at step 436
+Trained Amount:16
+Shift = 17	Min clashes = 22	at step 436
+Trained Amount:23
+Shift = 27	Min clashes = 22	at step 436
+Trained Amount:27
+Shift = 30	Min clashes = 22	at step 436
+Trained Amount:38
+Shift = 14	Min clashes = 22	at step 436
+Trained Amount:41
+Shift = 21	Min clashes = 22	at step 436
+Trained Amount:46
+Shift = 24	Min clashes = 22	at step 436
+Shift = 12	Min clashes = 22	at step 436
+Trained Amount:53
+Shift = 15	Min clashes = 22	at step 436
+Shift = 15	Min clashes = 22	at step 436
+Shift = 23	Min clashes = 22	at step 436
+Trained Amount:54
+Shift = 31	Min clashes = 22	at step 436
+Trained Amount:12
+Shift = 10	Min clashes = 22	at step 436
+Trained Amount:16
+Trained Amount:22
+Shift = 11	Min clashes = 22	at step 436
+Trained Amount:29
+Trained Amount:34
+Shift = 19	Min clashes = 22	at step 436
+Trained Amount:40
+Shift = 19	Min clashes = 22	at step 436
+Trained Amount:5
+Shift = 14	Min clashes = 22	at step 436
+Trained Amount:9
+Shift = 19	Min clashes = 22	at step 436
+Trained Amount:14
+Shift = 10	Min clashes = 22	at step 436
+Trained Amount:19
+Shift = 11	Min clashes = 22	at step 436
+Trained Amount:21
+Shift = 20	Min clashes = 22	at step 436
+Trained Amount:27
+Shift = 17	Min clashes = 22	at step 436
+Trained Amount:36
+Shift = 18	Min clashes = 22	at step 436
+Trained Amount:43
+Shift = 19	Min clashes = 22	at step 436
+Trained Amount:51
+Shift = 27	Min clashes = 22	at step 436
+Trained Amount:54
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Trained Amount:54
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 72
+Clashes 70
+Clashes 70
+Clashes 70
+Clashes 70
+Clashes 70
+Clashes 70
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 64
+Clashes 62
+Clashes 62
+Clashes 62
+Clashes 62
+Clashes 62
+Clashes 62
+Clashes 62
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Clashes 60
+Shift = 31	Min clashes = 22	at step 436
+Trained Amount:12
+Shift = 10	Min clashes = 22	at step 436
+Trained Amount:18
+Shift = 10	Min clashes = 22	at step 436
+Shift = 11	Min clashes = 22	at step 436
+Trained Amount:23
+Shift = 27	Min clashes = 22	at step 436
+Trained Amount:29
+Shift = 45	Min clashes = 22	at step 436
+Trained Amount:37
+Shift = 12	Min clashes = 22	at step 436
+Trained Amount:40
+Shift = 13	Min clashes = 22	at step 436
+Trained Amount:46
+Shift = 26	Min clashes = 22	at step 436
+Trained Amount:54
+Trained Amount:54
+Shift = 30	Min clashes = 22	at step 436
+Trained Amount:54
+Shift = 3	Min clashes = 22	at step 436
+Trained Amount:54
+Shift = 4	Min clashes = 22	at step 436
+Shift = 2	Min clashes = 22	at step 436
+Trained Amount:54
+Shift = 5	Min clashes = 22	at step 436
+Shift = 11	Min clashes = 22	at step 436
+Trained Amount:54
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 136
+Clashes 136
+Clashes 136
+Clashes 92
+Clashes 98
+Clashes 98
+Clashes 104
+Clashes 104
+Clashes 104
+Clashes 104
+Clashes 104
+Clashes 110
+Clashes 110
+Clashes 110
+Clashes 118
+Clashes 122
+Clashes 122
+Clashes 120
+Clashes 120
+Clashes 120
+Clashes 128
+Clashes 130
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 144
+Clashes 144
+Clashes 144
+Clashes 144
+Clashes 150
+Clashes 158
+Clashes 160
+Clashes 170
+Clashes 170
+Clashes 172
+Clashes 176
+Clashes 176
+Clashes 176
+Clashes 182
+Clashes 182
+Clashes 182
+Clashes 182
+Clashes 182
+Clashes 186
+Clashes 186
+Clashes 186
+Clashes 186
+Clashes 186
+Clashes 186
+Clashes 186
+Clashes 190
+Clashes 190
+Clashes 192
+Clashes 200
+Clashes 204
+Clashes 220
+Clashes 220
+Clashes 220
+Clashes 220
+Clashes 226
+Clashes 228
+Clashes 234
+Clashes 234
+Clashes 234
+Clashes 242
+Clashes 242
+Clashes 242
+Clashes 244
+Clashes 244
+Clashes 244
+Clashes 250
+Clashes 250
+Clashes 250
+Clashes 252
+Shift = 19	Min clashes = 22	at step 436
+Clashes 104
+Clashes 104
+Clashes 104
+Clashes 104
+Clashes 108
+Clashes 114
+Clashes 114
+Clashes 112
+Clashes 126
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 128
+Clashes 130
+Clashes 130
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 132
+Clashes 138
+Clashes 150
+Clashes 154
+Clashes 154
+Clashes 154
+Clashes 152
+Clashes 152
+Clashes 154
+Clashes 164
+Clashes 166
+Clashes 172
+Clashes 172
+Clashes 172
+Clashes 172
+Clashes 172
+Clashes 182
+Clashes 184
+Clashes 184
+Clashes 184
+Clashes 190
+Clashes 192
+Clashes 204
+Clashes 216
+Clashes 216
+Clashes 216
+Clashes 146
+Clashes 116
+Clashes 134

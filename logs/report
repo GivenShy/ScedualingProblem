@@ -1,0 +1,5 @@
+This week I watched some videos about Hopfield Network and read some articles about it.
+To be honest I didn't understand much.
+
+During training I tried to train network by random outputs. With button I update every slot which has clashes.
+but every time I have more clashed I don't know why.
