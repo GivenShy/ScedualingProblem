@@ -86,6 +86,10 @@ public class TimeTable extends JFrame implements ActionListener {
 
         switch (getButtonIndex((JButton) click.getSource())) {
             case 0:
+                String startLog = "File: " + field[2].getText() + ", Courses: " + field[1].getText() + ", Slots: " + field[0].getText();
+                log(startLog);
+                trainLog(startLog);
+                updateLog(startLog);
                 int slots = Integer.parseInt(field[0].getText());
                 courses = new CourseArray(Integer.parseInt(field[1].getText()) + 1, slots);
                 courses.readClashes(field[2].getText());
