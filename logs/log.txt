@@ -1,286 +1,285 @@
-Shift = 31	Min clashes = 22	at step 436
-Shift = 15	Min clashes = 22	at step 436
-Shift = 10	Min clashes = 22	at step 436
-Shift = 29	Min clashes = 22	at step 436
-Shift = 30	Min clashes = 22	at step 436
-Shift = 8	Min clashes = 22	at step 436
-Shift = 15	Min clashes = 22	at step 436
-Shift = 17	Min clashes = 22	at step 436
-Shift = 36	Min clashes = 48	at step 75
-Shift = 36	Min clashes = 48	at step 75
-Shift = 31	Min clashes = 22	at step 436
+StartIndex: 1
+Start Method, Shifts = 23	Iterations = 1000	 Clashes = 156
+Trained Amount:3
+Continue Method, Shifts = 45	Iterations = 1000	 Clashes = 126
+Shift = 45	Min clashes = 90	at step 1101
+Step Method, Shifts = 45	Iterations = 1	 Clashes = 118
+Trained Amount:7
+Continue Method, Shifts = 12	Iterations = 1000	 Clashes = 220
+Shift = 12	Min clashes = 90	at step 1101
+Step Method, Shifts = 12	Iterations = 1	 Clashes = 170
+Trained Amount:8
+Continue Method, Shifts = 11	Iterations = 1000	 Clashes = 200
+Shift = 11	Min clashes = 90	at step 1101
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 190
+Trained Amount:8
+Continue Method, Shifts = 34	Iterations = 1000	 Clashes = 156
+Shift = 34	Min clashes = 90	at step 1101
+Step Method, Shifts = 34	Iterations = 1	 Clashes = 174
+Trained Amount:10
+Continue Method, Shifts = 11	Iterations = 1000	 Clashes = 206
+Shift = 11	Min clashes = 90	at step 1101
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 216
+Trained Amount:10
+Continue Method, Shifts = 13	Iterations = 1000	 Clashes = 204
+Shift = 13	Min clashes = 90	at step 1101
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 218
 Trained Amount:12
-Shift = 19	Min clashes = 22	at step 436
-Trained Amount:16
-Shift = 17	Min clashes = 22	at step 436
-Trained Amount:23
-Shift = 27	Min clashes = 22	at step 436
-Trained Amount:27
-Shift = 30	Min clashes = 22	at step 436
-Trained Amount:38
-Shift = 14	Min clashes = 22	at step 436
-Trained Amount:41
-Shift = 21	Min clashes = 22	at step 436
-Trained Amount:46
-Shift = 24	Min clashes = 22	at step 436
-Shift = 12	Min clashes = 22	at step 436
-Trained Amount:53
-Shift = 15	Min clashes = 22	at step 436
-Shift = 15	Min clashes = 22	at step 436
-Shift = 23	Min clashes = 22	at step 436
-Trained Amount:54
-Shift = 31	Min clashes = 22	at step 436
-Trained Amount:12
-Shift = 10	Min clashes = 22	at step 436
-Trained Amount:16
-Trained Amount:22
-Shift = 11	Min clashes = 22	at step 436
-Trained Amount:29
-Trained Amount:34
-Shift = 19	Min clashes = 22	at step 436
-Trained Amount:40
-Shift = 19	Min clashes = 22	at step 436
-Trained Amount:5
-Shift = 14	Min clashes = 22	at step 436
-Trained Amount:9
-Shift = 19	Min clashes = 22	at step 436
-Trained Amount:14
-Shift = 10	Min clashes = 22	at step 436
-Trained Amount:19
-Shift = 11	Min clashes = 22	at step 436
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 202
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 214
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 208
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 220
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 196
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 212
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 204
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 212
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 200
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 204
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 208
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 230
+Step Method, Shifts = 13	Iterations = 1	 Clashes = 204
+Continue Method, Shifts = 21	Iterations = 1000	 Clashes = 184
+Shift = 21	Min clashes = 90	at step 1101
+Step Method, Shifts = 21	Iterations = 1	 Clashes = 202
+Trained Amount:15
+Continue Method, Shifts = 15	Iterations = 1000	 Clashes = 144
+Shift = 15	Min clashes = 90	at step 1101
+Step Method, Shifts = 15	Iterations = 1	 Clashes = 146
+Trained Amount:20
+Continue Method, Shifts = 4	Iterations = 1000	 Clashes = 240
+Shift = 4	Min clashes = 90	at step 1101
+Step Method, Shifts = 4	Iterations = 1	 Clashes = 198
 Trained Amount:21
-Shift = 20	Min clashes = 22	at step 436
-Trained Amount:27
-Shift = 17	Min clashes = 22	at step 436
-Trained Amount:36
-Shift = 18	Min clashes = 22	at step 436
-Trained Amount:43
-Shift = 19	Min clashes = 22	at step 436
-Trained Amount:51
-Shift = 27	Min clashes = 22	at step 436
-Trained Amount:54
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Trained Amount:54
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 72
-Clashes 70
-Clashes 70
-Clashes 70
-Clashes 70
-Clashes 70
-Clashes 70
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 64
-Clashes 62
-Clashes 62
-Clashes 62
-Clashes 62
-Clashes 62
-Clashes 62
-Clashes 62
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Clashes 60
-Shift = 31	Min clashes = 22	at step 436
-Trained Amount:12
-Shift = 10	Min clashes = 22	at step 436
-Trained Amount:18
-Shift = 10	Min clashes = 22	at step 436
-Shift = 11	Min clashes = 22	at step 436
-Trained Amount:23
-Shift = 27	Min clashes = 22	at step 436
-Trained Amount:29
-Shift = 45	Min clashes = 22	at step 436
+Continue Method, Shifts = 17	Iterations = 1000	 Clashes = 142
+Shift = 17	Min clashes = 90	at step 1101
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 156
+Trained Amount:24
+Continue Method, Shifts = 29	Iterations = 1000	 Clashes = 186
+Shift = 29	Min clashes = 90	at step 1101
+Step Method, Shifts = 29	Iterations = 1	 Clashes = 158
+Trained Amount:28
+Continue Method, Shifts = 11	Iterations = 1000	 Clashes = 216
+Shift = 11	Min clashes = 90	at step 1101
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 196
+Trained Amount:30
+Continue Method, Shifts = 12	Iterations = 1000	 Clashes = 172
+Shift = 12	Min clashes = 90	at step 1101
+Step Method, Shifts = 12	Iterations = 1	 Clashes = 168
+Trained Amount:31
+Continue Method, Shifts = 90	Iterations = 1000	 Clashes = 126
+Shift = 90	Min clashes = 90	at step 1101
+Step Method, Shifts = 90	Iterations = 1	 Clashes = 128
 Trained Amount:37
-Shift = 12	Min clashes = 22	at step 436
-Trained Amount:40
-Shift = 13	Min clashes = 22	at step 436
-Trained Amount:46
-Shift = 26	Min clashes = 22	at step 436
-Trained Amount:54
-Trained Amount:54
-Shift = 30	Min clashes = 22	at step 436
-Trained Amount:54
-Shift = 3	Min clashes = 22	at step 436
-Trained Amount:54
-Shift = 4	Min clashes = 22	at step 436
-Shift = 2	Min clashes = 22	at step 436
-Trained Amount:54
-Shift = 5	Min clashes = 22	at step 436
-Shift = 11	Min clashes = 22	at step 436
-Trained Amount:54
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 136
-Clashes 136
-Clashes 136
-Clashes 92
-Clashes 98
-Clashes 98
-Clashes 104
-Clashes 104
-Clashes 104
-Clashes 104
-Clashes 104
-Clashes 110
-Clashes 110
-Clashes 110
-Clashes 118
-Clashes 122
-Clashes 122
-Clashes 120
-Clashes 120
-Clashes 120
-Clashes 128
-Clashes 130
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 144
-Clashes 144
-Clashes 144
-Clashes 144
-Clashes 150
-Clashes 158
-Clashes 160
-Clashes 170
-Clashes 170
-Clashes 172
-Clashes 176
-Clashes 176
-Clashes 176
-Clashes 182
-Clashes 182
-Clashes 182
-Clashes 182
-Clashes 182
-Clashes 186
-Clashes 186
-Clashes 186
-Clashes 186
-Clashes 186
-Clashes 186
-Clashes 186
-Clashes 190
-Clashes 190
-Clashes 192
-Clashes 200
-Clashes 204
-Clashes 220
-Clashes 220
-Clashes 220
-Clashes 220
-Clashes 226
-Clashes 228
-Clashes 234
-Clashes 234
-Clashes 234
-Clashes 242
-Clashes 242
-Clashes 242
-Clashes 244
-Clashes 244
-Clashes 244
-Clashes 250
-Clashes 250
-Clashes 250
-Clashes 252
-Shift = 19	Min clashes = 22	at step 436
-Clashes 104
-Clashes 104
-Clashes 104
-Clashes 104
-Clashes 108
-Clashes 114
-Clashes 114
-Clashes 112
-Clashes 126
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 128
-Clashes 130
-Clashes 130
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 132
-Clashes 138
-Clashes 150
-Clashes 154
-Clashes 154
-Clashes 154
-Clashes 152
-Clashes 152
-Clashes 154
-Clashes 164
-Clashes 166
-Clashes 172
-Clashes 172
-Clashes 172
-Clashes 172
-Clashes 172
-Clashes 182
-Clashes 184
-Clashes 184
-Clashes 184
-Clashes 190
-Clashes 192
-Clashes 204
-Clashes 216
-Clashes 216
-Clashes 216
-Clashes 146
-Clashes 116
-Clashes 134
+Step Method, Shifts = 90	Iterations = 1	 Clashes = 122
+Trained Amount:37
+Continue Method, Shifts = 37	Iterations = 1000	 Clashes = 128
+Shift = 37	Min clashes = 90	at step 1101
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 142
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 156
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 160
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 186
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 150
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 172
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 156
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 166
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 186
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 158
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 182
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 156
+Trained Amount:37
+Update Method, Clashes42
+Update Method, Clashes38
+Update Method, Clashes32
+Update Method, Clashes32
+Update Method, Clashes32
+Update Method, Clashes32
+Update Method, Clashes32
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 212
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 174
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 250
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 236
+Step Method, Shifts = 37	Iterations = 1	 Clashes = 212
+Trained Amount:37
+Update Method, Clashes52
+Update Method, Clashes36
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Continue Method, Shifts = 35	Iterations = 1000	 Clashes = 184
+Shift = 35	Min clashes = 90	at step 1101
+Step Method, Shifts = 35	Iterations = 1	 Clashes = 164
+Update Method, Clashes46
+Update Method, Clashes40
+Update Method, Clashes40
+Update Method, Clashes40
+Update Method, Clashes40
+Continue Method, Shifts = 15	Iterations = 1000	 Clashes = 150
+Shift = 15	Min clashes = 90	at step 1101
+Step Method, Shifts = 15	Iterations = 1	 Clashes = 116
+Trained Amount:37
+Update Method, Clashes32
+Update Method, Clashes28
+Update Method, Clashes28
+Update Method, Clashes28
+Continue Method, Shifts = 19	Iterations = 1000	 Clashes = 150
+Shift = 19	Min clashes = 90	at step 1101
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 160
+Update Method, Clashes40
+Update Method, Clashes30
+Update Method, Clashes30
+Update Method, Clashes30
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 184
+Update Method, Clashes38
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 234
+Update Method, Clashes58
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes40
+Update Method, Clashes40
+Update Method, Clashes40
+Update Method, Clashes40
+Update Method, Clashes40
+Continue Method, Shifts = 100	Iterations = 1000	 Clashes = 40
+Shift = 100	Min clashes = 40	at step 19001
+Step Method, Shifts = 100	Iterations = 1	 Clashes = 40
+Continue Method, Shifts = 100	Iterations = 1000	 Clashes = 40
+Shift = 100	Min clashes = 40	at step 19001
+Step Method, Shifts = 100	Iterations = 1	 Clashes = 40
+Continue Method, Shifts = 7	Iterations = 1000	 Clashes = 200
+Shift = 7	Min clashes = 40	at step 19001
+Step Method, Shifts = 7	Iterations = 1	 Clashes = 208
+Update Method, Clashes58
+Update Method, Clashes54
+Update Method, Clashes54
+Update Method, Clashes54
+Continue Method, Shifts = 25	Iterations = 1000	 Clashes = 160
+Shift = 25	Min clashes = 40	at step 19001
+Step Method, Shifts = 25	Iterations = 1	 Clashes = 148
+Update Method, Clashes40
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Step Method, Shifts = 25	Iterations = 1	 Clashes = 166
+Update Method, Clashes52
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Continue Method, Shifts = 17	Iterations = 1000	 Clashes = 204
+Shift = 17	Min clashes = 40	at step 19001
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 146
+Update Method, Clashes42
+Update Method, Clashes42
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 170
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 228
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 184
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 196
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 208
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 166
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 198
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 174
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 190
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 170
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 170
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 180
+Step Method, Shifts = 17	Iterations = 1	 Clashes = 178
+Update Method, Clashes36
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Update Method, Clashes34
+Continue Method, Shifts = 22	Iterations = 1000	 Clashes = 154
+Shift = 22	Min clashes = 40	at step 19001
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 168
+Trained Amount:37
+Update Method, Clashes46
+Update Method, Clashes34
+Update Method, Clashes32
+Update Method, Clashes32
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 180
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 182
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 214
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 236
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 204
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 246
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 220
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 184
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 210
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 198
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 198
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 210
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 198
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 238
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 186
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 172
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 174
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 176
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 194
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 158
+Step Method, Shifts = 22	Iterations = 1	 Clashes = 222
+Update Method, Clashes38
+Update Method, Clashes38
+Update Method, Clashes38
+Update Method, Clashes38
+Update Method, Clashes38
+Continue Method, Shifts = 29	Iterations = 1000	 Clashes = 178
+Shift = 29	Min clashes = 40	at step 19001
+Step Method, Shifts = 29	Iterations = 1	 Clashes = 170
+Update Method, Clashes48
+Update Method, Clashes48
+Update Method, Clashes48
+Continue Method, Shifts = 39	Iterations = 1000	 Clashes = 112
+Shift = 39	Min clashes = 40	at step 19001
+Step Method, Shifts = 39	Iterations = 1	 Clashes = 190
+Update Method, Clashes40
+Update Method, Clashes36
+Update Method, Clashes36
+Update Method, Clashes36
+Continue Method, Shifts = 11	Iterations = 1000	 Clashes = 222
+Shift = 11	Min clashes = 40	at step 19001
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 218
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 206
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 214
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 226
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 208
+Step Method, Shifts = 11	Iterations = 1	 Clashes = 208
+Update Method, Clashes44
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 162
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 192
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 210
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 206
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 220
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 224
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 182
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 226
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 168
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 214
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 192
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 228
+Step Method, Shifts = 19	Iterations = 1	 Clashes = 164
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42
+Continue Method, Shifts = 3	Iterations = 1000	 Clashes = 348
+Shift = 3	Min clashes = 40	at step 19001
+Step Method, Shifts = 3	Iterations = 1	 Clashes = 328
+Update Method, Clashes52
+Update Method, Clashes46
+Update Method, Clashes42
+Update Method, Clashes42
+Update Method, Clashes42

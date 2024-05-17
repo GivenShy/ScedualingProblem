@@ -19,6 +19,7 @@ public class TimeTable extends JFrame implements ActionListener {
     int min = Integer.MAX_VALUE, step;
     int iterations = 0;
 
+    int startIndex = 0;
     Random random;
 
     public TimeTable() {
@@ -108,8 +109,12 @@ public class TimeTable extends JFrame implements ActionListener {
                     iterations++;
                 }
 
+
                 String str = "Shift = " + field[4].getText() + "\tMin clashes = " + min + "\tat step " + step;
-                log(str);
+                String log = "Start Method, Shifts = " + field[4].getText() + "\tIterations = " + field[3].getText() + "\t Clashes = " + courses.clashesLeft();
+                startIndex++;
+                log("StartIndex: " + startIndex);
+                log(log);
                 System.out.println(str);
                 setVisible(true);
 
@@ -129,10 +134,14 @@ public class TimeTable extends JFrame implements ActionListener {
                 }
                 String s = "Shift = " + field[4].getText() + "\tMin clashes = " + min + "\tat step " + step;
                 System.out.println(s);
+                log = "Continue Method, Shifts = " + field[4].getText() + "\tIterations = " + field[3].getText() + "\t Clashes = " + courses.clashesLeft();
+                log(log);
                 log(s);
                 setVisible(true);
             case 3:
                 courses.iterate(Integer.parseInt(field[4].getText()));
+                log = "Step Method, Shifts = " + field[4].getText() + "\tIterations = " + 1 + "\t Clashes = " + courses.clashesLeft();
+                log(log);
                 draw();
                 break;
             case 4:
@@ -141,6 +150,7 @@ public class TimeTable extends JFrame implements ActionListener {
                 System.out.println(autoassociator.getTrainCounter());
                 break;
             case 5:
+                for(int j = 0;j<1000;j++)
                 for(int i = 0;i<courses.getSlots();i++){
                     if(courses.slotStatus(i)[1]==0){
                         continue;
@@ -149,7 +159,12 @@ public class TimeTable extends JFrame implements ActionListener {
                 }
                 clashes = courses.clashesLeft();
                 System.out.println("Clashes " + clashes);
-                log("Clashes " + clashes);
+                log("Update Method, Clashes" + clashes);
+                String coursesState  = "{ ";
+                for(int i = 1;i<courses.length();i++){
+                    coursesState +=  i + ", "+ courses.slot(i) + ";";
+                }
+                updateLog(coursesState);
                 draw();
                 break;
             case 6:
@@ -164,35 +179,63 @@ public class TimeTable extends JFrame implements ActionListener {
 
     public  void update(int slot){
         int[] timeSlots = courses.getTimeSlot(slot);
+
         int index = autoassociator.unitUpdate(timeSlots);
         int[] tempSlots = courses.getTimeSlot(slot);
         if(timeSlots[index]!=tempSlots[index]){
             if(timeSlots[index]==1){
                 courses.setSlot(index,slot);
             }else{
-                courses.setSlot(index,random.nextInt(courses.getSlots()+1)-1);
+                int sl = getMinClashTimeSlot(index);
+                courses.setSlot(index,sl);
+//                int i = random.nextInt(courses.getSlots()+1)-1;
+//                while (i==slot || i==0)
+//                    i = random.nextInt(courses.getSlots()+1)-1;
+//                courses.setSlot(index,random.nextInt(courses.getSlots()+1)-1);
             }
         }
     }
 
+
     public void train() {
         int[][] timeSlots = courses.getAllTimeSlotStatus();
-        for(int i=0;i<timeSlots.length;i++){
-            System.out.println(timeSlots[i][0]+" " + timeSlots[i][1]);
-        }
         int min = (int)(((double) (courses.length() - 1))/ (courses.getSlots() + 1) * 0.5);
-        System.out.println(min);
         for (int i = 0; i < timeSlots.length; i++) {
             if (timeSlots[i][1] == 0) {
                 if (timeSlots[i][0] > min) {
                     if (autoassociator.needTrain()) {
                         int[] temp = courses.getTimeSlot(i);
+                        String str = "{";
+                        for(int j = 0;j<temp.length;j++){
+                            str += " " + temp[j]+",";
+                        }
+                        str += "}";
+                        trainLog("StartIndex: " + startIndex + ", Slot:" + str);
                         autoassociator.training(temp);
                     }
                 }
             }
         }
     }
+
+    public void updateLog(String str){
+        String filename = "logs/updateLog.txt";
+
+        String content = "StartIndex: " + startIndex + "\n";
+        content+=str;
+        try {
+            FileWriter fileWriter = new FileWriter(filename,true);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.write(content);
+            bufferedWriter.newLine();
+            bufferedWriter.close(); // Always remember to close the writer
+
+        } catch (IOException e) {
+            System.err.println("Error writing to the file: " + e.getMessage());
+        }
+    }
+
 
     public void log(String str){
         String filename = "logs/log.txt";
@@ -211,6 +254,54 @@ public class TimeTable extends JFrame implements ActionListener {
         }
     }
 
+    public  int getMinClashTimeSlot(int index){
+        int slot = courses.slot(index);
+        int minSlot = slot;
+        int minClashes = Integer.MAX_VALUE;
+        for(int i = 0; i<courses.getSlots();i++){
+            courses.setSlot(index,i);
+            if(minClashes>courses.status(index)){
+                minClashes = courses.status(index);
+                minSlot = i;
+            }
+        }
+        courses.setSlot(index,slot);
+        return  minSlot;
+    }
+
+    public void trainLog(String str){
+        String filename = "logs/trainLog.txt";
+        String content = str;
+
+        try {
+            FileWriter fileWriter = new FileWriter(filename,true);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.write(content);
+            bufferedWriter.newLine();
+            bufferedWriter.close(); // Always remember to close the writer
+
+        } catch (IOException e) {
+            System.err.println("Error writing to the file: " + e.getMessage());
+        }
+    }
+
+    public  void saveNetwork(String str){
+        String filename = "logs/trainLog.txt";
+        String content = str;
+
+        try {
+            FileWriter fileWriter = new FileWriter(filename,true);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.write(content);
+            bufferedWriter.newLine();
+            bufferedWriter.close(); // Always remember to close the writer
+
+        } catch (IOException e) {
+            System.err.println("Error writing to the file: " + e.getMessage());
+        }
+    }
     public static void main(String[] args) {
         new TimeTable();
     }
