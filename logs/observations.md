@@ -110,11 +110,17 @@ Iterations: 1000
 # Hopfield update observations
 
 At the beginning after update of Hopfield Network I randomly chose in which timeslot to insert course. As a result after each update
-I got more and more clashes. 
-After update I insert the course in the timeslot where I have the least amount of clashes. The least amount of clashes for dataset tre-s-92 
-was 28. After training I called update after some iteration update did not change anything, then I do steps to change the overall picture
+I got more and more clashes. Now I change my strategy, after updating a timeslot, if some course is not suitable for current timeslot,
+I place that course in the slot that will have the least amount of clashes.
+
+
+As a result I got significant change. When I did not use Hopfield Network The least amount of clashes was 76. After applying 
+Hopfield Network the least amount of clashes for dataset tre-s-92 became 28.
+
+The strategy was simple. After training I called update method until update does not change anything. Then I do steps to change the overall picture
 after some steps when I have not many clashes I call update once more and now I have much better results.
 
 In the file lse-f-91 the best result that I could get without Hopfield network was 22 clashes at step 436. 
-After implementing Hopfield network I could get 11, the strategt was simple. After update started to not change anything
-I did a step, then started to update the table once more.
+After implementing Hopfield network I could get 11. I used previous strategy for this dataset.
+
+For dataset tre-s-92 the results was better because initial amount of clashes was significantly more.
