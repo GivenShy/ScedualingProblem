@@ -41,7 +41,7 @@ public class Autoassociator {
         return trainCounter;
     }
     public int unitUpdate(int neurons[]) {
-        int index = random.nextInt(neurons.length);
+        int index = random.nextInt(neurons.length-1)+1;
         unitUpdate(neurons,index);
         return index;
     }
