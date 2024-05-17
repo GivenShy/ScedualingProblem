@@ -283,3 +283,85 @@ Update Method, Clashes46
 Update Method, Clashes42
 Update Method, Clashes42
 Update Method, Clashes42
+File: lse-f-91.stu, Courses: 381, Slots: 17
+StartIndex: 1
+Start Method, Shifts = 13	Iterations = 1000	 Clashes = 86
+Trained Amount:6
+Continue Method, Shifts = 16	Iterations = 1000	 Clashes = 110
+Shift = 16	Min clashes = 42	at step 159
+Step Method, Shifts = 16	Iterations = 1	 Clashes = 94
+Trained Amount:12
+Continue Method, Shifts = 31	Iterations = 1000	 Clashes = 58
+Shift = 31	Min clashes = 36	at step 2288
+Step Method, Shifts = 31	Iterations = 1	 Clashes = 134
+Trained Amount:20
+Continue Method, Shifts = 89	Iterations = 1000	 Clashes = 108
+Shift = 89	Min clashes = 36	at step 2288
+Step Method, Shifts = 89	Iterations = 1	 Clashes = 114
+Trained Amount:23
+Continue Method, Shifts = 10	Iterations = 1000	 Clashes = 106
+Shift = 10	Min clashes = 36	at step 2288
+Step Method, Shifts = 10	Iterations = 1	 Clashes = 116
+Trained Amount:25
+Continue Method, Shifts = 27	Iterations = 1000	 Clashes = 64
+Shift = 27	Min clashes = 26	at step 5822
+Step Method, Shifts = 27	Iterations = 1	 Clashes = 78
+Trained Amount:34
+Continue Method, Shifts = 2	Iterations = 1000	 Clashes = 242
+Shift = 2	Min clashes = 26	at step 5822
+Step Method, Shifts = 2	Iterations = 1	 Clashes = 270
+Trained Amount:34
+File: lse-f-91.stu, Courses: 381, Slots: 17
+StartIndex: 2
+Start Method, Shifts = 31	Iterations = 436	 Clashes = 22
+Trained Amount:12
+Continue Method, Shifts = 12	Iterations = 436	 Clashes = 128
+Shift = 12	Min clashes = 22	at step 436
+Step Method, Shifts = 12	Iterations = 1	 Clashes = 114
+Trained Amount:15
+Continue Method, Shifts = 87	Iterations = 436	 Clashes = 102
+Shift = 87	Min clashes = 22	at step 436
+Step Method, Shifts = 87	Iterations = 1	 Clashes = 122
+Trained Amount:21
+Continue Method, Shifts = 15	Iterations = 436	 Clashes = 60
+Shift = 15	Min clashes = 22	at step 436
+Step Method, Shifts = 15	Iterations = 1	 Clashes = 72
+Trained Amount:31
+Continue Method, Shifts = 21	Iterations = 436	 Clashes = 88
+Shift = 21	Min clashes = 22	at step 436
+Step Method, Shifts = 21	Iterations = 1	 Clashes = 106
+Continue Method, Shifts = 10	Iterations = 436	 Clashes = 92
+Shift = 10	Min clashes = 22	at step 436
+Step Method, Shifts = 10	Iterations = 1	 Clashes = 134
+Trained Amount:34
+Continue Method, Shifts = 29	Iterations = 436	 Clashes = 94
+Shift = 29	Min clashes = 22	at step 436
+Step Method, Shifts = 29	Iterations = 1	 Clashes = 86
+Trained Amount:39
+Continue Method, Shifts = 32	Iterations = 436	 Clashes = 72
+Shift = 32	Min clashes = 22	at step 436
+Step Method, Shifts = 32	Iterations = 1	 Clashes = 78
+Trained Amount:43
+Continue Method, Shifts = 12	Iterations = 436	 Clashes = 102
+Shift = 12	Min clashes = 22	at step 436
+Step Method, Shifts = 12	Iterations = 1	 Clashes = 110
+Trained Amount:47
+Continue Method, Shifts = 35	Iterations = 436	 Clashes = 98
+Shift = 35	Min clashes = 22	at step 436
+Step Method, Shifts = 35	Iterations = 1	 Clashes = 68
+Trained Amount:54
+Update Method, Clashes24
+Update Method, Clashes12
+Update Method, Clashes12
+Update Method, Clashes12
+Step Method, Shifts = 35	Iterations = 1	 Clashes = 58
+Update Method, Clashes22
+Update Method, Clashes16
+Update Method, Clashes16
+Continue Method, Shifts = 35	Iterations = 436	 Clashes = 74
+Shift = 35	Min clashes = 22	at step 436
+Step Method, Shifts = 35	Iterations = 1	 Clashes = 130
+Update Method, Clashes26
+Update Method, Clashes16
+Update Method, Clashes16
+Update Method, Clashes16
